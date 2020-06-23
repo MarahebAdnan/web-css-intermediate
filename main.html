@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+</head>
+<style> .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
+  body {
+background-color: silver;
+margin: 0px;
+  }
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    display: inline;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: right;
+  
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-align: right;
+    padding-top: 10px;
+  }
+  
+  .topnav a.active {
+    background-color:#47464b;
+    color: white;
+    text-align: right;
+  }
+  .ani {
+ color:rgb(180, 167, 167);
+  animation-name: example;
+  animation-duration: 4s;
+  text-align:center;
+  font-family: "Tanseek T Bold", tahoma;
+  
+}
+
+.para { 
+    text-align: right;
+    margin-top:25px ;
+
+}
+.left {
+    text-align: left;
+  width: 100px;
+}
+.pic {
+    display: inline;
+    text-align: center;
+}
+@keyframes example {
+  from {color: rgb(100, 100, 100);}
+  to {color: white;}
+}
+.button {
+  border-radius: 4px;
+  background-color:#685c59;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+footer {
+    background-color: #333;
+    text-align: right;
+    font-family: "Tanseek T Bold", tahoma;
+ 
+
+}
+.center {
+    text-align: center;
+}
+.third {
+    text-align: center;
+}
+</style>
+<body>
+   <div class="topnav">
+        <a class="active" href="main.html">الصفحة الرئيسية</a>
+        <a href="نبذة.html">من نحن</a>
+        <a href="استفسارات.html">استفسارات</a>
+       <header>
+        <div class="left"> <img src="logo.jpe" width="150px"> </div> 
+        
+        
+        
+        <h1 class="ani">المنصة التعليمية 
+
+
+     
+
+
+       </h1></header> 
+     
+     
+      </div>
+
+
+
+
+      <div class="pic">
+
+
+       <div class="center"> <img src="وزارة.jpg" width="500px"> </div>
+     
+       </div>
+       <div class="third"><h1>مرحبا بكم في المنصة التعليمية</h1></div>
+<div class="para"> <h3>
+     
+    انطلاقا من حرص وزارة التربية في دولة الكويت على مواكبة التطور والرقي في العملية التربوية قامت الوزارة باطلاق بوابة الكويت التعليمية و هي مشروع تعليمي رائد يقوم بتوظيف التكنولوجيا الحديثة في خدمة العملية التربوية والتي يعد الطالب المحور الاساسي فيها.
+    تقدم البوابة مجموعة من الخدمات المتنوعة التي تخدم الطالب.</h3></div>
+  <a href="التسجيل.html" target="_blank"><button class="button"><span>لتسجيل الدخول اضغط هنا </span></button> </a>
+
+  <footer>
+     <div> <h2>للتواصل معنا :</h2>  </div>
+      <a href="https://www.instagram.com/moekwt/" target="_blank"> <img src="insta.svg" width="50px"></a>
+      <a href="https://twitter.com/MOEKUWAIT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> <img src="tw.svg" width="50px"></a>
+  </footer>
+    
+</body>
+</html>
